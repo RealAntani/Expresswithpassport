@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <p><strong>Welcome!</strong></p>
+    <p>Please sign up to create your account</p>
+    
+    <!-- Form for signing up with fast hashing -->
+    <form action="/signup/fast" method="post">
+        <div>
+            <label>Username:</label>
+            <input type="text" name="username" /> <!-- Input field for username -->
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" /> <!-- Input field for password -->
+        </div>
+        <div>
+            <input type="submit" value="Sign Up (Fast)" />
+        </div>
+    </form>
+
+    <!-- Form for signing up with slow hashing -->
+    <form action="/signup/slow" method="post">
+        <div>
+            <label>Username:</label>
+            <input type="text" name="username" /> <!-- Input field for username -->
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" /> <!-- Input field for password -->
+        </div>
+        <div>
+            <input type="submit" value="Sign Up (Slow)" />
+        </div>
+    </form>
+</body>
+
+</html>

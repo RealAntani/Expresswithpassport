@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "username": "user1",
+    "passwordParams": {
+      "salt": "f6e26a3053b9ce5e13b7d7af3a00972b",
+      "key": "f28ce2ea8e160fed58b6d6c514f6b8081dff968b7349fde6cbb41c66687069fe3212bdb0c6e7b17075bc8602fa6727ac26ae31c04c00837bb8bc6dc2f841a450",
+      "cost": 16384,
+      "blockSize": 8,
+      "parallelization": 1
+    }
+  },
+  {
+    "id": 2,
+    "username": "user2",
+    "passwordParams": {
+      "salt": "b63170b7a8aa1d431dddfdc3337da66c",
+      "key": "610c81450aec7768e8c65c2ba37016b47debbd024296c7b977b57838bac14f730cef01bef6533de89ce7159d2f536f619e7913ebeee8bd3770b6cbdf0e49a559",
+      "cost": 16384,
+      "blockSize": 8,
+      "parallelization": 50
+    }
+  },
+  {
+    "id": 3,
+    "username": "user",
+    "passwordParams": {
+      "salt": "e6f907c0dbd0d6f346c58bebe1aead10",
+      "key": "1aded8fface26c5a38d3309f4289eb29b7ae8a0ce7eea3c8df14e60b124bd82aec18b8f248984dd62141089a258c80600f2bc02167afefdd93fc365eb7681772",
+      "cost": 16384,
+      "blockSize": 8,
+      "parallelization": 1
+    }
+  },
+  {
+    "id": 4,
+    "username": "userr",
+    "passwordParams": {
+      "salt": "eee7da3be28575b3c822acc30ed2fb00",
+      "key": "fec74a5747ae7c2f9c5087151ad201edf8abc9a6977bcb954372a7ffbec4744fcc2bce1ca6220b10b0512c66dcf2139f18d7ae80f46bd721f954f0897d5f2c67",
+      "cost": 16384,
+      "blockSize": 8,
+      "parallelization": 50
+    }
+  }
+]
